@@ -66,60 +66,65 @@ namespace _05_LoopsWithStarts
 
             #region Dik Üçgen Ve Ters Üçgen Beraber
 
-            //for(int i = 1; i <= 5; i++)
+
+            //for (int i = 1; i <= 5; i++)
             //{
-            //    for (int j = 1; j <= i; j++)
+            //    for (int j = 1; j <= i ;j++)
+            //    {
+            //        Console.Write("*");
+
+            //    }
+            //    Console.WriteLine();
+
+            //}
+            //for (int i = 1; i <= 4; i++)
+            //{
+            //    for (int k = 4; k >= i; k--)
             //    {
             //        Console.Write("*");
             //    }
             //    Console.WriteLine();
             //}
 
-            //for(int i = 4; i >= 1; i--)
-            //{
-            //    for(int j = 1; j<=i;j++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
-            //}
+
 
             #endregion
 
             #region Baklava Dilimi
 
-           
-            int n = 5;
 
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = n - i; j > 0; j--)
-                {
-                    Console.Write(" ");
-                }
+            //int n = int.Parse(Console.ReadLine());
 
-                for (int k = 1; k <= 2 * i - 1; k++)
-                {
-                    Console.Write("*");
-                }
 
-                Console.WriteLine();
-            }
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = n - i; j >= 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
 
-            //alt satır
-            for (int i = n - 1; i >= 1; i--)
-            {
-                for (int j = n - i; j > 0; j--)
-                {
-                    Console.Write(" ");
-                }
 
-                for (int k = 1; k <= 2 * i - 1; k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //    for (int k = 1; k <= 2 *i -1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+            //for (int i = n-1 ; i >= 1; i--)
+            //{
+            //    for (int j = n-i; j >= 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= 2*i -1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
 
 
             #endregion
@@ -167,8 +172,56 @@ namespace _05_LoopsWithStarts
 
             #endregion
 
+            #region Sayı Piramidi
 
-            Console.Read();
+            //int a = 1;
+
+            //for (int i = 1; i <= 8; i++)
+            //{
+            //    for (int j = 1 ; j <= i ; j++)
+            //    {
+
+            //        Console.Write(a);
+
+            //    }
+            //    a++;
+            //    Console.WriteLine();
+            //}
+
+
+
+            #endregion
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = n - i; j >=0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 1; k <= 2 * i -1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = n-1; i >= 1; i--)
+            //{
+            //    for (int j =n - i ; j >= 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= 2 * i -1  ; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+            //Console.Read();
         }
     }
 }

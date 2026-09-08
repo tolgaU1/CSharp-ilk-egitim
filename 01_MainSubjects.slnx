@@ -4,4 +4,5 @@
   <Project Path="03_MakingDecision/03_MakingDecision.csproj" Id="8ae4b4e3-27dd-496b-acb9-d221b3f30013" />
   <Project Path="04_Loops/04_Loops.csproj" Id="3fccde1f-50dc-4891-aefc-e3b05d47ebaf" />
   <Project Path="05_LoopsWithStarts/05_LoopsWithStars.csproj" Id="314648f6-bd2c-42fe-a62f-d98a4a2a707d" />
+  <Project Path="06_Arrays/06_Arrays.csproj" Id="9cbcc004-14ca-4fc9-9001-82baa9fde7b3" />
 </Solution>
